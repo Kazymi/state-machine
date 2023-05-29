@@ -16,6 +16,7 @@ namespace StateMachine.Conditions
         {
             _time = time;
             _func = func;
+            _currentTime = time;
         }
         
         public override bool IsConditionSatisfied()
